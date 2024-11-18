@@ -63,3 +63,8 @@ body{
     background-color: White;
     font-family: sans-serif;
   }
+  .logol {
+    max-width: 110px;
+    display: block;
+    margin: 0 auto 10px;
+}
