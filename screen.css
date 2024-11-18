@@ -54,3 +54,8 @@ h1 {
     letter-spacing: 2px;
     color: #333;
 }
+.logo {
+    max-width: 80px;
+    display: block;
+    margin: 0 auto 10px;
+}
