@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
+    <title>Pizza Lovers Night Ticket</title>
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <div class="ticket">
-   <div class="ticketheader">
-      <img src="images/newpizza.png" alt="'pizza" class="logo">
-
-      <h1>Pizza Lovers Night</h1>
-   </div>
-   <div class="'ticketbody">
-    <p><strong>Date:</strong> Saturday, November 25, 2024</p>
-    <p><strong>Time:</strong> 6:00 PM - 10:00 PM</p>
-    <p><strong>Location:</strong> The Cheesy Crust Pizza Shop</p>
-    <p><strong>Address:</strong> 123 Flavor Street, Pizzaville, NY</p>
-   </div>
-   <div class="'ticketfooter">
-    <p><strong>Admit One</strong></p>
-    <p> <img src="images/barcode.png" alt="'pizza" class="logol">
-    </p>
-   </div>
-   </div>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="ticket card border-warning shadow-lg">
+            <div class="ticketheader card-header bg-warning text-center">
+                <img src="images/newpizza.png" alt="Pizza" class="logo mb-3">
+                <h1>Pizza Lovers Night</h1>
+            </div>
+            <div class="ticketbody card-body text-dark">
+                <p><strong>Date:</strong> Saturday, November 25, 2024</p>
+                <p><strong>Time:</strong> 6:00 PM - 10:00 PM</p>
+                <p><strong>Location:</strong> The Cheesy Crust Pizza Shop</p>
+                <p><strong>Address:</strong> 123 Flavor Street, Pizzaville, NY</p>
+            </div>
+            <div class="ticketfooter card-footer text-center bg-light">
+                <p><strong>Admit One</strong></p>
+                <img src="images/barcode.png" alt="Barcode" class="logol img-fluid">
+            </div>
+        </div>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="index.js"></script>
-  </body>
+</body>
 </html>
