@@ -48,3 +48,9 @@ h1 {
     margin: 5px 0;
 }
 
+.barcode {
+    font-family: monospace;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #333;
+}
